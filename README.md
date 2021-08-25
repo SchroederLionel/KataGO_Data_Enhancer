@@ -41,6 +41,6 @@ The Mean value is the average value according to every scorelead or utility for 
 
 
 F_Mean is a specific mean which is described as:
-
-
+PastedGraphic-1.pdf
+![alt text](https://github.com/SchroederLionel/KataGO_Data_Enhancer.git/PastedGraphic-1.pdf?raw=true)
 ## Setup
