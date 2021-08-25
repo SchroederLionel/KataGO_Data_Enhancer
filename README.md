@@ -18,6 +18,8 @@ The SGF file and the analysed katago file. The analysed katago file is the file 
 ## Technologies
 Its a program written in Java. However, it is in maven make sure to clean and build it to get the required dependencies such as GSON which is used to create the final output. 
 ## Output
+
+
 | Usage | ScoreLead | Utility | IsRepresented | Euclidean distance |
 | Black&White | True | True | True | True |
 | Min | True | True | True | True |
@@ -25,11 +27,20 @@ Its a program written in Java. However, it is in maven make sure to clean and bu
 | Mean | True | True | True | True |
 | F_Mean | True | True | True | True |
 
+
 Black&White means are the values seperated for each player.
+
+
 Min shows the minimum of each value of each game according to Scorelead,utility and Euclidean distance.
+
+
 Max the opposite of min.
+
+
 The Mean value is the average value according to every scorelead or utility for every stone placed. (For black and white player seperatly)
+
+
 F_Mean is a specific mean which is described as:
 
-where N is the total number of scoreleads available and n the current 
+
 ## Setup
