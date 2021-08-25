@@ -21,6 +21,7 @@ Its a program written in Java. However, it is in maven make sure to clean and bu
 
 
 | Usage | ScoreLead | Utility | IsRepresented | Euclidean distance |
+| --- | --- | --- | --- | --- |
 | Black&White | True | True | True | True |
 | Min | True | True | True | True |
 | Max | True | True | True | True |
@@ -41,6 +42,14 @@ The Mean value is the average value according to every scorelead or utility for 
 
 
 F_Mean is a specific mean which is described as:
-PastedGraphic-1.pdf
-![alt text](https://github.com/SchroederLionel/KataGO_Data_Enhancer.git/PastedGraphic-1.pdf?raw=true)
+
+![Screenshot](F_Mean.jpg)
+
+Where N the total amount of values are. For example, each move has one scoreLead if this list contains 10 moves than N will be 10.
+n is the position of the element in the list for example the second one and n-1 is the previous one.
+In case n is 0 starting index of the list the previous value will be 0.
+
+
 ## Setup
+Download the project and import it in your favorite IDE.  Its a Maven Project make sure to clean up and build the project and install the different Dependencies such as GSON.
+In addition, you will be required to change the URLs to your specifc file system URLs. For example linking the Virgin files folder to your local SGF files folder where you want to enhance the data gotten from KataGo.
