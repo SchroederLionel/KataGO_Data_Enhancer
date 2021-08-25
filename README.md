@@ -1,11 +1,11 @@
-# Get More from the KataGo output 
+# Get More from KataGo output 
 Allows to compute the euclidean distance of the different moves of a Go game and adds the average,min etc values of the Utility, Scoreleade and others.
 
 ## Table of contents
 * [General info](#general-info)
 * [Requirements](#requirements)
 * [Technologies](#technologies)
-* [Output] (#output)
+* [Output](#output)
 * [Setup](#setup)
 
 ## General info
@@ -18,7 +18,7 @@ The SGF file and the analysed katago file. The analysed katago file is the file 
 ## Technologies
 Its a program written in Java. However, it is in maven make sure to clean and build it to get the required dependencies such as GSON which is used to create the final output. 
 ## Output
-| Usage || ScoreLead | Utility | IsRepresented | Euclidean distance |
+| Usage | ScoreLead | Utility | IsRepresented | Euclidean distance |
 | Black&White | True | True | True | True |
 | Min | True | True | True | True |
 | Max | True | True | True | True |
@@ -26,5 +26,10 @@ Its a program written in Java. However, it is in maven make sure to clean and bu
 | F_Mean | True | True | True | True |
 
 Black&White means are the values seperated for each player.
-Min shows the minimum of each value
+Min shows the minimum of each value of each game according to Scorelead,utility and Euclidean distance.
+Max the opposite of min.
+The Mean value is the average value according to every scorelead or utility for every stone placed. (For black and white player seperatly)
+F_Mean is a specific mean which is described as:
+
+where N is the total number of scoreleads available and n the current 
 ## Setup
